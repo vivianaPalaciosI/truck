@@ -1,0 +1,17 @@
+<div id="home-section" class="row">
+  <div  class="col-md-12 col-sm-12 col-xs-12 home_carousel">
+    <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+      <div *ngFor="let image of images">
+        <div [ngClass]="image.isActive ? 'carousel-item active' : 'carousel-item'">
+          <div class="carousel-background"><img src="{{image.url}}" alt=""></div>
+          <div class="carousel-container">
+            <div>
+              <h2> {{ image.title | translate }}   </h2>
+              <p> {{image.description | translate }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

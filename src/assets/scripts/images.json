@@ -1,0 +1,29 @@
+{
+ "imagen":
+    [
+        {
+            "id":1,
+            "name": "Flete 1",
+            "url": "./assets/img/flete1.jpg",
+            "title":"imagesTrucks.title_1",
+            "description":"imagesTrucks.description_1",
+            "isActive":true
+        },
+        {
+            "id":2,
+            "name": "Flete 2",
+            "url": "./assets/img/flete2.jpg",
+            "title":"imagesTrucks.title_2",
+            "description":"imagesTrucks.description_2",
+            "isActive":false
+        },
+        {
+            "id":3,
+            "name": "Flete 3",
+            "url": "./assets/img/flete3.jpg",
+            "title":"imagesTrucks.title_3",
+            "description":"imagesTrucks.description_3",
+            "isActive":false
+        }
+    ]   
+}

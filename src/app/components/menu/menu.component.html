@@ -1,0 +1,20 @@
+<div class="row" id="menu">
+  <div  class="col-md-6 col-sm-6 col-xs-6">
+    <nav id="nav-menu-language">
+      <ul class="nav-menu">
+        <li><a class="lang" (click)="changeLang.emit('en')">{{'lang.en' | translate}}</a></li>
+        <li><a class="lang" (click)="changeLang.emit('es')">{{'lang.es' | translate}}</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="col-md-6 col-sm-6 col-xs-6">
+    <nav id="nav-menu-container">
+      <ul class="nav-menu">
+        <li><a [routerLink]="['/home']">{{'menu.home' | translate}}</a></li>
+        <li><a [routerLink]="['/about']">{{'menu.about' | translate}}</a></li>
+        <li><a [routerLink]="['/service']">{{'menu.service' | translate}}</a></li>
+        <li><a [routerLink]="['/contact']">{{'menu.contact' | translate}}</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+{
+    "information":
+       [
+           {
+               "id":1,
+               "url": "pending_icon",
+               "title":"companyInformation.mision",
+               "description":"companyInformation.mision_description"
+           },
+           {
+               "id":2,
+               "url": "pending_icon",
+               "title":"companyInformation.vision",
+               
+               "description":"companyInformation.vision_description"
+           },
+           {
+               "id":3,
+               "url": "pending_icon",
+               "title":"companyInformation.valores",
+               "description":"companyInformation.valores_description"
+           }
+       ]   
+   }

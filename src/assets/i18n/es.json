@@ -1,0 +1,67 @@
+{
+	"menu": {
+		"about": "Nuestra Empresa",
+		"contact": "Contacto",
+		"home": "Inicio",
+		"service": "Servicios"
+	},
+	"lang":{
+		"en":"Ingles",
+		"es":"Español"
+	},
+	"about":{
+		"title":"Nuestra Empresa",
+		"description":" Somos una empresa mexicana con más de 10 años de experiencia en fletes y logística en México. Nos enfocamos principalmente en la confianza y seguridad, para que la entrega se realice con éxito en el tiempo pactado y así nuestros clientes queden satisfechos. Ofrecemos un servicio de calidad, sin intermediarios. Nuestras unidades cuentan con sistema GPS y son monitoreadas durante todo el trayecto."
+	},
+	"services":{
+		"title":"Servicios",
+		"description":"Todos nuestros servicios le garantizan una seguridad, transparencia, confianza, y monitoreo constante.",
+		"quote":"Cotizar"
+	},
+	"contact":{
+		"title":"Contactanos",
+		"address":"Dirección",
+		"address_description":"Rincon de Guadalupe S/N. CP: 67193, Guadalupe N.L.",
+		"phone":"Teléfono",
+		"phone_description":"(811) 456-7890",
+		"mail":"Email",
+		"mail_description":"fletes@yopmail.com",
+		"name":"Nombre",
+		"comments":"Comentarios",
+		"send":"Enviar"
+	},
+	"imagesTrucks":{
+		"description_1":"Contamos con fletes especializados y de logistica para todo México.",
+		"description_2":"Enviamos su mercancia hoy mismo y lo entregamos puntualmente a su destino.",
+		"description_3":"Contamos con unidades con sistema GPS y son monitoreadas durante todo el trayecto.",
+		"title_1": "Servicio de calidad y confiable",
+		"title_2": "Servicio Nacional",
+		"title_3": "Rastreo satelital"
+	},
+	"companyInformation":{
+		"mision":"Misión",
+		"vision":"Visión",
+		"valores":"Valores",
+		"mision_description":"Proporcionar un servicio de transporte de carga competitivo, brindando atención personalizada a nuestros clientes, atendiendo sus necesidades para la solución de cruce y/o transportación de sus Mercancías.",
+		"vision_description":"Ser reconocidos por nuestros valores, personal y servicio; convirtiéndonos en la compañía de transporte más competitiva de México.",
+		"valores_description":"Pasion, Responsabilidad, Transpariencia y Calidad"
+	},
+	"truck":{
+		"type_1":"Fletes Torton caja cerrada",
+		"type_2":"Flete 3.5 ton.",
+		"type_3":"Flete Torton Plataforma",
+		"type_description_1":"Ideal para realizar fletes donde la mercancía no puede ser expuesta a la intemperie ya que la caja de estas unidades se encuentran completamente cerradas, lo cual impide que la mercancía se dañe por causa de las condiciones climatológicas.",
+		"type_description_2":"Redilas Fijas de 3.5 ton. para realizar fletes donde la mercancía si puede ser expuesta a la intemperie sin que esto ocasione un deterioro.",
+		"type_description_3":"Ideal para realizar fletes donde la mercancía es de difícil acceso ya que la plataforma de estas unidades favorecen que las maniobras de carga o de descarga se puedan realizar desde cualquier ángulo."
+	},
+	"quote":{
+		"title":"Cotizacion para ",
+		"required":"Requerido",
+		"name":"Nombre",
+		"mail":"Email",
+		"phone":"Teléfono",
+		"origin":"Origen",
+		"destination":"Destino",
+		"send":"Enviar"
+	}
+}

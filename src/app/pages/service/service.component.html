@@ -1,0 +1,75 @@
+<div id="service-section" class="row">
+  <div  class="col-md-12 col-sm-12 col-xs-12">
+    <div class="container">
+      <header class="section-header ">
+        <h3>{{'services.title' | translate}}</h3>
+        <p>{{'services.description' | translate}}</p>
+      </header>
+      <div class="card-deck">
+        <div class="card" *ngFor="let truck of trucks">
+          <img class="card-img-top" src="{{truck.url}}" >
+          <div class="card-body">
+            <h5 class="card-title">{{truck.name | translate}}</h5>
+            <p class="card-text">{{truck.description | translate}}</p>
+          </div>
+          <div class="card-footer">
+            <a class="card-link" (click)="openModalQuote('quote-modal-1', truck)">{{'services.quote' | translate}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<quote-modal id="quote-modal-1">
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <span style="color:#FB532E; text-align: center;"> {{'quote.title' | translate}} {{truck_selected.name | translate}}</span>
+    </div>
+    <br><br>
+    <div class="col-md-12 col-sm-12 col-xs-12" [formGroup]="quoteForm">
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputFormName" >{{'quote.name' | translate}}</label>
+            <input type="text" formControlName="name" class="form-control" 
+            [ngClass]="{ 'is-invalid': (quoteForm.controls.name.touched && quoteForm.controls.name.hasError('required')) }" id="inputFormName" required>
+            
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputFormMail">{{'quote.mail' | translate}}</label>
+            <input type="email" formControlName="mail" class="form-control"
+            [ngClass]="{ 'is-invalid': (quoteForm.controls.mail.touched && quoteForm.controls.mail.hasError('required')) }" id="inputFormMail" required>
+            
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputFormPhone">{{'quote.phone' | translate}}</label>
+            <input type="text" formControlName="phone" class="form-control" 
+            [ngClass]="{ 'is-invalid': (quoteForm.controls.phone.touched && quoteForm.controls.phone.hasError('required')) }" id="inputFormPhone" required>
+           
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputFormOrigin">{{'quote.origin' | translate}}</label>
+            <input type="text" formControlName="origin" class="form-control"
+            [ngClass]="{ 'is-invalid': (quoteForm.controls.origin.touched && quoteForm.controls.origin.hasError('required')) }" id="inputFormOrigin" required>
+           
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputFormDestination">{{'quote.destination' | translate}}</label>
+            <input type="text" formControlName="destination" class="form-control" 
+            [ngClass]="{ 'is-invalid': (quoteForm.controls.destination.touched && quoteForm.controls.destination.hasError('required')) }" id="inputFormDestination" required>
+          </div>
+        </div>
+        <div style="text-align: end;">
+          <button type="submit" [disabled]="!quoteForm.valid" (click)="closeModalQuote('quote-modal-1')" class="btn" style="background-color: #FB532E; color:#fff">{{'contact.send' | translate}}</button>
+        </div>
+    </div>
+  </div>
+</quote-modal>

@@ -1,0 +1,107 @@
+
+.home_carousel {
+  display: table;
+  width: 100%;
+  padding: 0;
+  background: #000;
+}
+
+.home_carousel .carousel-item {
+  width: 100%;
+  height: 92vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home_carousel .carousel-item::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.home_carousel .carousel-container {
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.home_carousel .carousel-background img {
+  width: 100%;
+}
+
+ h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+p {
+  width: 80%;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+
+.home_carousel .carousel-fade {
+  overflow: hidden;
+}
+
+.home_carousel .carousel-fade .carousel-inner .carousel-item {
+  transition-property: opacity;
+}
+
+.home_carousel .carousel-fade .carousel-inner .carousel-item,
+.home_carousel .carousel-fade .carousel-inner .active.carousel-item-left,
+.home_carousel .carousel-fade .carousel-inner .active.carousel-item-right {
+  opacity: 0;
+}
+
+.home_carousel .carousel-fade .carousel-inner .active,
+.home_carousel .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,
+.home_carousel .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.home_carousel .carousel-fade .carousel-inner .carousel-item-next,
+.home_carousel .carousel-fade .carousel-inner .carousel-item-prev,
+.home_carousel .carousel-fade .carousel-inner .active.carousel-item-left,
+.home_carousel .carousel-fade .carousel-inner .active.carousel-item-right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.home_carousel .carousel-control-prev,
+.home_carousel .carousel-control-next {
+  width: 10%;
+}
+
+.home_carousel .carousel-control-next-icon,
+.home_carousel .carousel-control-prev-icon {
+  background: none;
+  font-size: 32px;
+  line-height: 1;
+}

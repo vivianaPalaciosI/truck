@@ -1,0 +1,20 @@
+<div id="about-section" class="row">
+  <div  class="col-md-12 col-sm-12 col-xs-12">
+    <div class="container">
+      <header class="section-header">
+        <h3>{{'about.title' | translate}}</h3>
+        <p>{{'about.description' | translate}}</p>
+      </header>
+      <div class="row about-cols">
+        <div class="col-md-4"  *ngFor="let info of information">
+          <div class="about-col">
+            <h2 class="title">{{ info.title | translate }}  </h2>
+            <p>
+              {{ info.description | translate }} 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

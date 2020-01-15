@@ -1,0 +1,67 @@
+{
+	"menu": {
+		"about": "About",
+		"contact": "Contact",
+		"home": "Home",
+		"service": "Service"
+	},
+	"lang":{
+		"en":"English",
+		"es":"Spanish"
+	},
+	"about":{
+		"title":"About",
+		"description":"We are a Mexican company with more than 10 years of experience in logistics . We focus mainly on trust and security, so that the delivery is carried out successfully in the agreed time and so our customers are satisfied. We offer a quality service, without intermediaries. Our units have a GPS system and are monitored throughout the journey."
+	},
+	"services":{
+		"title":"Services",
+		"description":"All our services guarantee you security, transparency, trust, and constant monitoring.",
+		"quote":"Quote"
+	},
+	"contact":{
+		"title":"Contact Us",
+		"address":"Address",
+		"address_description":"Rincon de Guadalupe S/N. CP: 67193, Guadalupe N.L.",
+		"phone":"Phone",
+		"phone_description":"(811) 456-7890",
+		"mail":"Email",
+		"mail_description":"fletes@yopmail.com",
+		"name": "Name",
+		"comments":"Comments",
+		"send":"Send"
+	},
+	"imagesTrucks":{
+		"description_1":"We have specialized logistics service for all México",
+		"description_2":"We ship your merchandise and deliver it promptly to your destination.",
+		"description_3":"We have GPS in all trucks and they are monitored throughout the trip.",
+		"title_1": "Quality Service",
+		"title_2": "National Service",
+		"title_3": "GPS Service"
+	},
+	"companyInformation":{
+		"mision":"Mission",
+		"vision":"Vision",
+		"valores":"Ethical Values",
+		"mision_description":"pending mission description",
+		"vision_description":"pending vision description",
+		"valores_description":"pending values description"
+	},
+	"truck":{
+		"type_1":"Truck type 1",
+		"type_2":"Truck type 2",
+		"type_3":"Truck type 3",
+		"type_description_1":"pending description truck type 1",
+		"type_description_2":"pending description truck type 2",
+		"type_description_3":"pending description truck type 3"
+	},
+	"quote":{
+		"title":"Quote for ",
+		"required":"Required",
+		"name":"Name",
+		"mail":"Email",
+		"phone":"Phone",
+		"origin":"Origin",
+		"destination":"Destination",
+		"send":"Send"
+	}
+}

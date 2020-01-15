@@ -1,0 +1,23 @@
+{
+    "truck":
+       [
+           {
+               "id":1,
+               "name": "truck.type_1",
+               "url": "./assets/img/flete_estaca_caja_seca.jpg",
+               "description":"truck.type_description_1"
+           },
+           {
+               "id":2,
+               "name": "truck.type_2",
+               "url": "./assets/img/flete_3_1_2_ton.png",
+               "description":"truck.type_description_2"
+           },
+           {
+               "id":3,
+               "name": "truck.type_3",
+               "url": "./assets/img/flete_torton.jpg",
+               "description":"truck.type_description_3"
+           }
+       ]   
+}

@@ -1,0 +1,21 @@
+
+#service-section {
+  background: #fff;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+}
+
+.card-img-top{
+  height: 170px;
+  padding: 20px;
+}
+.card-title{
+  color: #FB532E;
+}
+.card-footer{
+  text-align: end;
+  .card-link{
+    color:#FB532E;
+    cursor: pointer;
+  }
+}
